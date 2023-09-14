@@ -2,7 +2,6 @@
 import React from "react";
 import { usePathname } from "next/navigation";
 import NavLink from "./NavLink";
-
 const Links = () => {
   const pathname = usePathname();
   const menuLinks = [
