@@ -138,7 +138,7 @@ const Links = () => {
           />
         );
       })}
-      <button className="px-4 py-4 mt-3 mr-6 font-bold text-white transition-opacity bg-blue-500 rounded-full hover:opacity-80">
+      <button className="px-4 py-4 mt-3 font-bold text-white transition-opacity bg-blue-500 rounded-full hover:opacity-80">
         Gönder
       </button>
     </div>
