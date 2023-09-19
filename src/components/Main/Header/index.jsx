@@ -4,7 +4,7 @@ import { useState } from "react";
 const Header = () => {
   const [mode, setMode] = useState("you");
   return (
-    <div className="sticky top-0 left-0 w-full border-b border-[#2f3336] px-4 pt-3 backdrop-blur-md flex flex-col gap-y-8  ">
+    <div className="sticky top-0 left-0 w-full border-b border-[#2f3336] px-4 pt-3 backdrop-blur-md flex flex-col gap-y-8  z-10">
       <h2 className="text-xl font-semibold text-white">Anasayfa</h2>
       <div className="flex ">
         <button

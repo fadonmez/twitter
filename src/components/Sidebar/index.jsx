@@ -5,12 +5,10 @@ import Footer from "./Footer";
 
 const Sidebar = () => {
   return (
-    <div className="w-[275px] relative">
-      <div className="fixed py-1 px-0.5 flex flex-col h-screen">
-        <Logo />
-        <Links />
-        <Footer />
-      </div>
+    <div className="sticky w-[275px] top-0 py-1 px-4 flex flex-col h-screen ">
+      <Logo />
+      <Links />
+      <Footer />
     </div>
   );
 };
